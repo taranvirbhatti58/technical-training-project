@@ -1,0 +1,21 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:Segoe UI,Arial,sans-serif} body{background:#f4f6f8;color:#222;line-height:1.6}
+
+header{background:#0d1b2a;color:#fff;padding:20px 60px;display:flex;justify-content:space-between;align-items:center} header h1{font-size:22px} nav a{color:#fff;margin-left:25px;text-decoration:none;opacity:.85;transition:.3s} nav a:hover{opacity:1;color:#fca311}
+
+.hero{min-height:85vh;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;background:linear-gradient(rgba(13,27,42,.8),rgba(13,27,42,.8)),url('https://images.unsplash.com/photo-1601584115197-04ecc0da31d7');background-size:cover} .hero-content h2{font-size:44px} .hero-content p{margin:15px 0 25px;font-size:18px} .btn{background:#fca311;color:#000;padding:14px 34px;text-decoration:none;font-weight:600;border-radius:4px;transition:.3s} .btn:hover{background:#ffb703;transform:translateY(-3px)}
+
+.section{padding:80px 60px;max-width:1200px;margin:auto} .section h3{text-align:center;font-size:34px;color:#0d1b2a} .sub{text-align:center;color:#555;margin:10px 0 50px}
+
+.about{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center} .about img{width:100%;border-radius:10px;transition:.4s} .about img:hover{transform:scale(1.03)}
+
+.light{background:#fff;border-radius:12px}
+
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:25px} .card{background:#fff;padding:30px;border-radius:10px;text-align:center;font-weight:500;box-shadow:0 10px 25px rgba(0,0,0,.08);transition:.3s} .card:hover{transform:translateY(-8px);box-shadow:0 18px 40px rgba(0,0,0,.15)}
+
+.stats{background:#0d1b2a;color:#fff;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:30px;padding:70px 60px;text-align:center} .stat h2{font-size:38px;color:#fca311}
+
+.contact{background:#fff;padding:40px;border-radius:10px;text-align:center;box-shadow:0 10px 25px rgba(0,0,0,.08)} .contact p{margin:10px 0;font-size:16px}
+
+footer{background:#0d1b2a;color:#fff;text-align:center;padding:25px;font-size:14px}
+
+@media(max-width:900px){header{flex-direction:column}nav{margin-top:10px}.about{grid-template-columns:1fr}.hero-content h2{font-size:34px}}
